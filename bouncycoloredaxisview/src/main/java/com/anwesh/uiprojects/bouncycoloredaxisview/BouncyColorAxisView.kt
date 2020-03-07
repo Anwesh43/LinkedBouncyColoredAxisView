@@ -210,4 +210,13 @@ class BouncyColorAxisView(ctx : Context) : View(ctx) {
             }
         }
     }
+
+    companion object {
+
+        fun create(activity : Activity) : BouncyColorAxisView {
+            val view : BouncyColorAxisView = BouncyColorAxisView(activity)
+            activity.setContentView(view)
+            return view
+        }
+    }
 }

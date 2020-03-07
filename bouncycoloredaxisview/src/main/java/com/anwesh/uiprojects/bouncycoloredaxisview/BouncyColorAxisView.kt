@@ -16,8 +16,8 @@ val lines : Int = 2
 val parts : Int = 3
 val strokeFactor : Float = 90f
 val sizeFactor : Float = 2.9f
-val delay : Long = 25
-val scGap : Float = 0.2f / parts
+val delay : Long = 35
+val scGap : Float = 0.2f / (parts * 2)
 val backColor : Int = Color.parseColor("#BDBDBD")
 val colors : Array<String> = arrayOf("#4CAF50", "#673AB7", "#f44336", "#01579B", "#009688")
 
